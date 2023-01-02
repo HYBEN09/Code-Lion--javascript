@@ -4,8 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>코드 라이언</title>
-    <script src="./index.js"></script>
+    <title>기념일 계산기</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./index.js" defer></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.6.3.min.js"
+      integrity="sha256-pvPw+upLPUjgMXY0G+8O0xUf+/Im1MZjXxxgOcBQBXU="
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body></body>
+  <body class="container">
+    <section class="photos">
+      <img id="duhee" src="./assets/duhee.jpeg" alt="duhee" />
+      <img id="heart" src="./assets/heart.png" alt="heart" />
+      <img id="jisook" src="./assets/jisook.jpeg" alt="jisook" />
+    </section>
+
+    <h3 id="name">두희♥지숙</h3>
+    <h3 id="love">0일째</h3>
+    <h4 class="date">2020.6.30</h4>
+
+    <hr />
+    <section class="special-day">
+      <h3 class="title">발렌타인 데이</h3>
+      <div class="date-box">
+        <p id="valentine" class="days-left">0일 남음</p>
+        <p class="date">2021.2.14</p>
+      </div>
+    </section>
+
+    <hr />
+    <section class="special-day">
+      <h3 class="title">1000일</h3>
+      <div class="date-box">
+        <p id="thousand" class="days-left">0일 남음</p>
+        <p id="thousand-date" class="date">0000.00.00</p>
+      </div>
+    </section>
+    <hr />
+  </body>
 </html>
